@@ -1,0 +1,109 @@
+.mobile-menu{
+    @media @desktop-strict, @large{
+        display: none;
+    }
+    padding: 5px 0;
+    .depth-1;
+    .icon-menu{
+        font-size: 36px;
+        color:@blue;
+    }
+    .mobile-go-home{
+        display: block;
+        float: right;
+    }
+    #mobile-header-logo{
+        width: 120px;
+    }
+        
+    .mobile-menu-toggle{
+        background: @grey;
+        height: 100vh;
+        .depth-1-dark;
+        left:-100%;
+        position: absolute;
+        .transition(all 0.7s ease-in-out);
+        z-index: 2;
+        top:0;
+        &.open{
+            left:0px
+        }
+        .row{
+            background: @grey;
+        }
+        .phone-contact{
+            padding: 15px 0;
+            background: @blue;
+            color: @white;
+            font-size: 16px;
+            text-align: center;
+            .icon-ico_phone{
+                font-size: 22px;
+                margin: 0 10px;    
+            }
+        }
+        .close-menu{
+            padding: 15px 0;
+            text-align: center;
+            i{
+                font-size: 22px;
+                color: @blue;
+            }
+        }
+        .menu{
+            padding:15px 0;
+            li{
+                text-transform: uppercase;
+                a{
+                    color: @black;
+                    display: block;
+                    padding: 10px 0 10px 25px;
+                    font-size: 13px;
+                    &:hover{
+                        background: @blue;
+                        color: @white;
+                    }
+                }
+            }
+        }
+        
+    }
+    
+}
+
+header.desktop-menu{
+    @media @phone, @phone-strict, @tablet, @tablet-strict, @desktop{
+        display: none;
+    }
+    @media @desktop-strict, @large{
+        display: block;
+    }
+	padding:15px 0;
+    .menu{
+		ul{
+			padding:0;
+			margin:0;
+            float: right;
+			li{
+				list-style:none;
+				float:left;
+				line-height: 62px;
+				text-transform: uppercase;
+				margin-left: 25px;
+				
+				a{
+					font-weight: 600;
+		  			color:@black;
+				}
+                &.btn-cta a{
+                    font-weight: 300;
+                }
+                &.current-menu-item{
+                    a{
+                        border-bottom: 3px solid @blue;
+                    }
+                }
+			}
+		}
+	}
+}
