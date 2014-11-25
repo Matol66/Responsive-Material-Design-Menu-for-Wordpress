@@ -1,3 +1,14 @@
+.box-shadow (@string) {
+	-webkit-box-shadow: @string;
+	-moz-box-shadow:    @string;
+	box-shadow:         @string;
+}
+.depth-1{
+	.box-shadow(0 1px 6px rgba(0, 0, 0, 0.12));
+}
+.depth-1-dark{
+	.box-shadow(0 1px 6px rgba(0, 0, 0, 0.24));
+}
 .mobile-menu{
     @media @desktop-strict, @large{
         display: none;
