@@ -1,0 +1,151 @@
+.depth-1 {
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12);
+}
+.depth-1-dark {
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.24);
+}
+.header-mobile .q-action-wrapper {
+  background: #f4f4f4;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  z-index: 1;
+  position: relative;
+  border-bottom: 1px solid #ff6600;
+}
+.header-mobile .q-action-wrapper .q-action > div {
+  padding: 10px 0;
+}
+.header-mobile .q-action-wrapper .q-action a {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  text-align: center;
+  color: #ff6600;
+}
+.header-mobile .q-action-wrapper .q-action a:hover {
+  text-decoration: none;
+  color: #ff6600;
+}
+.header-mobile .q-action-wrapper .q-action a i {
+  display: block;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.header-mobile .q-action-wrapper .q-action a span {
+  display: block;
+  font-size: 12px;
+  color: #000000;
+}
+.header-mobile .q-action-wrapper .q-action.middle {
+  border: 1px solid #ff6600;
+  border-top: none;
+  border-bottom: none;
+}
+.header-mobile .nav-bar {
+  padding: 10px 0;
+  z-index: 2;
+  position: relative;
+  background: #ffffff;
+}
+.header-mobile #searchform input {
+  background: #ffffff;
+  width: 75%;
+  font-size: 12px;
+  padding: 3px 7px;
+}
+.header-mobile .mobile-menu-toggle {
+  background: #e8e8e8;
+  height: 100vh;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.24);
+  left: -100%;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+}
+.header-mobile .mobile-menu-toggle .menu-wrapper ul {
+  padding: 15px 0;
+  margin: 0;
+}
+.header-mobile .mobile-menu-toggle .menu-wrapper ul li {
+  text-transform: uppercase;
+  list-style: none;
+}
+.header-mobile .mobile-menu-toggle .menu-wrapper ul li a {
+  color: #000000;
+  display: block;
+  padding: 15px 0 15px 25px;
+  font-size: 13px;
+}
+.header-mobile .mobile-menu-toggle .menu-wrapper ul li a:hover,
+.header-mobile .mobile-menu-toggle .menu-wrapper ul li a:active {
+  background: #ff6600;
+  color: #ffffff;
+  text-decoration: none;
+}
+.header-mobile .mobile-menu-toggle .phone-contact {
+  padding: 15px 0;
+  background: #ff6600;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+}
+.header-mobile .mobile-menu-toggle .phone-contact .icon-ico_phone {
+  font-size: 22px;
+  margin: 0 10px;
+}
+.header-mobile .mobile-menu-toggle .close-menu {
+  padding: 15px 0;
+  text-align: center;
+  background: #ffffff;
+}
+.header-mobile .mobile-menu-toggle .close-menu i {
+  font-size: 22px;
+  color: #ff6600;
+}
+.header-mobile .icon-menu {
+  font-size: 36px;
+  color: #ff6600;
+  position: relative;
+  top: 3px;
+}
+.header-mobile .icon-menu span {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  top: -5px;
+  position: relative;
+}
+.header-mobile .mobile-go-home {
+  display: block;
+  float: right;
+}
+.header-mobile #mobile-header-logo {
+  width: 110px;
+  max-width: 110px;
+}
+.header-mobile.tablet {
+  background: #ffffff;
+  z-index: 2;
+  position: relative;
+}
+.header-mobile.tablet .login-btn {
+  background: #ff6600;
+  padding: 3px 10px;
+  color: #ffffff;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  top: 3px;
+  position: relative;
+}
+.header-mobile.tablet .login-btn:hover {
+  text-decoration: none;
+  background: #e35b00;
+}
