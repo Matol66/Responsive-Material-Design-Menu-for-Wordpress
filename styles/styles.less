@@ -31,7 +31,9 @@
   -ms-transition:     @transition;
   -o-transition:      @transition;
 }
-
+.push-right{
+  float: right;
+}
 .depth-1{
   .box-shadow(0 1px 6px rgba(0, 0, 0, 0.12));
 }
@@ -48,7 +50,7 @@
     padding-bottom: 15px;
     z-index: 1;
     position: relative;
-    border-bottom: 1px solid @main_color;
+//    border-bottom: 1px solid @main_color;
     .q-action{
       > div{
         padding: 10px 0;
@@ -90,71 +92,10 @@
   }
 
 
-  #searchform{
-    input{
-      background: @white;
-      width: 75%;
-      font-size: 12px;
-      padding: 3px 7px;
-    }
-  }
 
 
-  .mobile-menu-toggle{
-    .menu-wrapper{
-//      background: #ff0000;
-      ul{
-        padding: 15px 0;
-        margin: 0;
-        li{
-          text-transform: uppercase;
-          list-style: none;
-          a{
-            color: @black;
-            display: block;
-            padding: 15px 0 15px 25px;
-            font-size: 13px;
-            &:hover, &:active {
-              background: @main_color;
-              color: @white;
-              text-decoration: none;
-            }
-          }
-        }
-      }
-    }
 
-    background: @grey;
-    height: 100vh;
-    .depth-1-dark;
-    left:-100%;
-    position: absolute;
-    z-index: 2;
-    top:0;
-    //    .row{
-    //      background: @grey;
-    //    }
-    .phone-contact{
-      padding: 15px 0;
-      background: @main_color;
-      color: @white;
-      font-size: 16px;
-      text-align: center;
-      .icon-ico_phone{
-        font-size: 22px;
-        margin: 0 10px;
-      }
-    }
-    .close-menu{
-      padding: 15px 0;
-      text-align: center;
-      background: @white;
-      i{
-        font-size: 22px;
-        color: @main_color;
-      }
-    }
-  }
+
 
 
 
@@ -194,6 +135,7 @@
     position: relative;
 
     .login-btn{
+      float: right;
       background: @main_color;
       padding: 3px 10px;
       color: @white;
@@ -204,6 +146,92 @@
         text-decoration: none;
         background: @main_color_hover;
       }
+
+      span{
+        margin-left: 10px;
+      }
     }
+  }
+}
+
+.mobile-menu-toggle{
+  #searchform{
+    input{
+      background: @white;
+      width: 75%;
+      font-size: 12px;
+      padding: 3px 7px;
+    }
+  }
+
+
+
+  .menu-wrapper{
+    //      background: #ff0000;
+    ul{
+      padding: 15px 0;
+      margin: 0;
+      li{
+        text-transform: uppercase;
+        list-style: none;
+        a{
+          color: @black;
+          display: block;
+          padding: 15px 0 15px 25px;
+          font-size: 13px;
+          &:hover, &:active {
+            background: @main_color;
+            color: @white;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+
+  background: @grey;
+  height: 100vh;
+  .depth-1-dark;
+  left:-100%;
+  position: absolute;
+  z-index: 2;
+  top:0;
+//  top:46px;
+  //    .row{
+  //      background: @grey;
+  //    }
+  .phone-contact{
+    padding: 15px 0;
+    background: @main_color;
+    font-size: 16px;
+    text-align: center;
+    i{
+      font-size: 22px;
+      color: @white;
+      margin: 0 10px 0 0;
+    }
+    a{
+      color: @white;
+      &:hover, &:active, &:focus{
+        text-decoration: none;
+        border: none;
+      }
+    }
+  }
+  .close-menu{
+    padding: 15px 0;
+    text-align: center;
+    background: @white;
+    right: 0;
+    position: absolute;
+    height: 100%;
+    i{
+      font-size: 22px;
+      color: @main_color;
+    }
+  }
+  .toggle-header{
+    background: @main_color;
+    position: relative;
   }
 }

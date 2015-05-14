@@ -1,3 +1,6 @@
+.push-right {
+  float: right;
+}
 .depth-1 {
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12);
   -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12);
@@ -14,7 +17,6 @@
   padding-bottom: 15px;
   z-index: 1;
   position: relative;
-  border-bottom: 1px solid #ff6600;
 }
 .header-mobile .q-action-wrapper .q-action > div {
   padding: 10px 0;
@@ -52,63 +54,6 @@
   position: relative;
   background: #ffffff;
 }
-.header-mobile #searchform input {
-  background: #ffffff;
-  width: 75%;
-  font-size: 12px;
-  padding: 3px 7px;
-}
-.header-mobile .mobile-menu-toggle {
-  background: #e8e8e8;
-  height: 100vh;
-  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.24);
-  -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.24);
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.24);
-  left: -100%;
-  position: absolute;
-  z-index: 2;
-  top: 0;
-}
-.header-mobile .mobile-menu-toggle .menu-wrapper ul {
-  padding: 15px 0;
-  margin: 0;
-}
-.header-mobile .mobile-menu-toggle .menu-wrapper ul li {
-  text-transform: uppercase;
-  list-style: none;
-}
-.header-mobile .mobile-menu-toggle .menu-wrapper ul li a {
-  color: #000000;
-  display: block;
-  padding: 15px 0 15px 25px;
-  font-size: 13px;
-}
-.header-mobile .mobile-menu-toggle .menu-wrapper ul li a:hover,
-.header-mobile .mobile-menu-toggle .menu-wrapper ul li a:active {
-  background: #ff6600;
-  color: #ffffff;
-  text-decoration: none;
-}
-.header-mobile .mobile-menu-toggle .phone-contact {
-  padding: 15px 0;
-  background: #ff6600;
-  color: #ffffff;
-  font-size: 16px;
-  text-align: center;
-}
-.header-mobile .mobile-menu-toggle .phone-contact .icon-ico_phone {
-  font-size: 22px;
-  margin: 0 10px;
-}
-.header-mobile .mobile-menu-toggle .close-menu {
-  padding: 15px 0;
-  text-align: center;
-  background: #ffffff;
-}
-.header-mobile .mobile-menu-toggle .close-menu i {
-  font-size: 22px;
-  color: #ff6600;
-}
 .header-mobile .icon-menu {
   font-size: 36px;
   color: #ff6600;
@@ -135,6 +80,7 @@
   position: relative;
 }
 .header-mobile.tablet .login-btn {
+  float: right;
   background: #ff6600;
   padding: 3px 10px;
   color: #ffffff;
@@ -148,4 +94,80 @@
 .header-mobile.tablet .login-btn:hover {
   text-decoration: none;
   background: #e35b00;
+}
+.header-mobile.tablet .login-btn span {
+  margin-left: 10px;
+}
+.mobile-menu-toggle {
+  background: #e8e8e8;
+  height: 100vh;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.24);
+  left: -100%;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+}
+.mobile-menu-toggle #searchform input {
+  background: #ffffff;
+  width: 75%;
+  font-size: 12px;
+  padding: 3px 7px;
+}
+.mobile-menu-toggle .menu-wrapper ul {
+  padding: 15px 0;
+  margin: 0;
+}
+.mobile-menu-toggle .menu-wrapper ul li {
+  text-transform: uppercase;
+  list-style: none;
+}
+.mobile-menu-toggle .menu-wrapper ul li a {
+  color: #000000;
+  display: block;
+  padding: 15px 0 15px 25px;
+  font-size: 13px;
+}
+.mobile-menu-toggle .menu-wrapper ul li a:hover,
+.mobile-menu-toggle .menu-wrapper ul li a:active {
+  background: #ff6600;
+  color: #ffffff;
+  text-decoration: none;
+}
+.mobile-menu-toggle .phone-contact {
+  padding: 15px 0;
+  background: #ff6600;
+  font-size: 16px;
+  text-align: center;
+}
+.mobile-menu-toggle .phone-contact i {
+  font-size: 22px;
+  color: #ffffff;
+  margin: 0 10px 0 0;
+}
+.mobile-menu-toggle .phone-contact a {
+  color: #ffffff;
+}
+.mobile-menu-toggle .phone-contact a:hover,
+.mobile-menu-toggle .phone-contact a:active,
+.mobile-menu-toggle .phone-contact a:focus {
+  text-decoration: none;
+  border: none;
+}
+.mobile-menu-toggle .close-menu {
+  padding: 15px 0;
+  text-align: center;
+  background: #ffffff;
+  right: 0;
+  position: absolute;
+  height: 100%;
+}
+.mobile-menu-toggle .close-menu i {
+  font-size: 22px;
+  color: #ff6600;
+}
+.mobile-menu-toggle .toggle-header {
+  background: #ff6600;
+  position: relative;
 }

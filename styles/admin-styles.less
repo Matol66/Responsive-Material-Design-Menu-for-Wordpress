@@ -1,0 +1,90 @@
+.transition (@transition : ~'all 0.3s ease') {
+  -webkit-transition: @transition;
+  -moz-transition:    @transition;
+  -ms-transition:     @transition;
+  -o-transition:      @transition;
+}
+.border-radius (@radius: 3px) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius:    @radius;
+  border-radius:         @radius;
+
+  -moz-background-clip:    padding;
+  -webkit-background-clip: padding-box;
+  background-clip:         padding-box;
+}
+
+@black : #000000;
+@white: #FFFFFF;
+
+form{
+  width: 75%;
+  float: left;
+
+}
+
+.helper{
+  width: 25%;
+  float: left;
+  a{
+    display: inline-block;
+    border: 1px solid @black;
+    text-decoration: none;
+    padding: 7px 15px;
+    color:@black;
+
+    .transition;
+    &:hover, &:active{
+      background: @black;
+      color:@white;
+
+    }
+  }
+  h3{
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 15px;
+    &:after{
+      content: '';
+      border-bottom: 2px solid @black;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 80px;
+    }
+  }
+
+}
+
+span{
+  &.text{
+    label{
+      input{
+        display: block;
+        margin-top: 5px;
+        padding: 8px 10px;
+        margin-left: 0;
+      }
+    }
+  }
+  &.radio{
+    label{
+      display: block;
+      margin-bottom: 7px;
+    }
+  }
+}
+
+
+img.img-responsive{
+  max-width: 100%;
+}
+
+.preview-upload{
+  max-width: 150px;
+  margin: 0 0 15px 0;
+  display: block;
+  padding: 10px;
+  border: 1px solid #e8e8e8;
+  .border-radius;
+}

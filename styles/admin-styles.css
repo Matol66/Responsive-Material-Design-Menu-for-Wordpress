@@ -1,0 +1,63 @@
+form {
+  width: 75%;
+  float: left;
+}
+.helper {
+  width: 25%;
+  float: left;
+}
+.helper a {
+  display: inline-block;
+  border: 1px solid #000000;
+  text-decoration: none;
+  padding: 7px 15px;
+  color: #000000;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.helper a:hover,
+.helper a:active {
+  background: #000000;
+  color: #ffffff;
+}
+.helper h3 {
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 15px;
+}
+.helper h3:after {
+  content: '';
+  border-bottom: 2px solid #000000;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 80px;
+}
+span.text label input {
+  display: block;
+  margin-top: 5px;
+  padding: 8px 10px;
+  margin-left: 0;
+}
+span.radio label {
+  display: block;
+  margin-bottom: 7px;
+}
+img.img-responsive {
+  max-width: 100%;
+}
+.preview-upload {
+  max-width: 150px;
+  margin: 0 0 15px 0;
+  display: block;
+  padding: 10px;
+  border: 1px solid #e8e8e8;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}

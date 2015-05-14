@@ -1,0 +1,3790 @@
+[class^="icon-"], [class*=" icon-"] {
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-image: url(sprite.svg);
+}
+.icon-3d-rotation {
+	width: 24px;
+	height: 24px;
+	background-position: 0 0;
+}
+.icon-accessibility {
+	width: 24px;
+	height: 24px;
+	background-position: -40px 0;
+}
+.icon-account-balance {
+	width: 24px;
+	height: 24px;
+	background-position: -80px 0;
+}
+.icon-account-balance-wallet {
+	width: 24px;
+	height: 24px;
+	background-position: -120px 0;
+}
+.icon-account-box {
+	width: 24px;
+	height: 24px;
+	background-position: -160px 0;
+}
+.icon-account-child {
+	width: 24px;
+	height: 24px;
+	background-position: -200px 0;
+}
+.icon-account-circle {
+	width: 24px;
+	height: 24px;
+	background-position: -240px 0;
+}
+.icon-add-shopping-cart {
+	width: 24px;
+	height: 24px;
+	background-position: -280px 0;
+}
+.icon-alarm {
+	width: 24px;
+	height: 24px;
+	background-position: -320px 0;
+}
+.icon-alarm-add {
+	width: 24px;
+	height: 24px;
+	background-position: -360px 0;
+}
+.icon-alarm-off {
+	width: 24px;
+	height: 24px;
+	background-position: -400px 0;
+}
+.icon-alarm-on {
+	width: 24px;
+	height: 24px;
+	background-position: -440px 0;
+}
+.icon-android {
+	width: 24px;
+	height: 24px;
+	background-position: -480px 0;
+}
+.icon-announcement {
+	width: 24px;
+	height: 24px;
+	background-position: -520px 0;
+}
+.icon-aspect-ratio {
+	width: 24px;
+	height: 24px;
+	background-position: -560px 0;
+}
+.icon-assessment {
+	width: 24px;
+	height: 24px;
+	background-position: -600px 0;
+}
+.icon-assignment {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -40px;
+}
+.icon-assignment-ind {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -40px;
+}
+.icon-assignment-late {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -40px;
+}
+.icon-assignment-return {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -40px;
+}
+.icon-assignment-returned {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -40px;
+}
+.icon-assignment-turned-in {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -40px;
+}
+.icon-autorenew {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -40px;
+}
+.icon-backup {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -40px;
+}
+.icon-book {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -40px;
+}
+.icon-bookmark {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -40px;
+}
+.icon-bookmark-outline {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -40px;
+}
+.icon-bug-report {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -40px;
+}
+.icon-cached {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -40px;
+}
+.icon-class {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -40px;
+}
+.icon-credit-card {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -40px;
+}
+.icon-dashboard {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -40px;
+}
+.icon-delete {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -80px;
+}
+.icon-description {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -80px;
+}
+.icon-dns {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -80px;
+}
+.icon-done {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -80px;
+}
+.icon-done-all {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -80px;
+}
+.icon-event {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -80px;
+}
+.icon-exit-to-app {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -80px;
+}
+.icon-explore {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -80px;
+}
+.icon-extension {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -80px;
+}
+.icon-face-unlock {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -80px;
+}
+.icon-favorite {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -80px;
+}
+.icon-favorite-outline {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -80px;
+}
+.icon-find-in-page {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -80px;
+}
+.icon-find-replace {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -80px;
+}
+.icon-flip-to-back {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -80px;
+}
+.icon-flip-to-front {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -80px;
+}
+.icon-get-app {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -120px;
+}
+.icon-grade {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -120px;
+}
+.icon-group-work {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -120px;
+}
+.icon-help {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -120px;
+}
+.icon-highlight-remove {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -120px;
+}
+.icon-history {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -120px;
+}
+.icon-home {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -120px;
+}
+.icon-https {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -120px;
+}
+.icon-info {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -120px;
+}
+.icon-info-outline {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -120px;
+}
+.icon-input {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -120px;
+}
+.icon-invert-colors {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -120px;
+}
+.icon-label {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -120px;
+}
+.icon-label-outline {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -120px;
+}
+.icon-language {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -120px;
+}
+.icon-launch {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -120px;
+}
+.icon-list {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -160px;
+}
+.icon-lock {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -160px;
+}
+.icon-lock-open {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -160px;
+}
+.icon-lock-outline {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -160px;
+}
+.icon-loyalty {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -160px;
+}
+.icon-markunread-mailbox {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -160px;
+}
+.icon-note-add {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -160px;
+}
+.icon-open-in-browser {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -160px;
+}
+.icon-open-in-new {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -160px;
+}
+.icon-open-with {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -160px;
+}
+.icon-pageview {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -160px;
+}
+.icon-payment {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -160px;
+}
+.icon-perm-camera-m {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -160px;
+}
+.icon-perm-contact-cal {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -160px;
+}
+.icon-perm-data-setting {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -160px;
+}
+.icon-perm-device-info {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -160px;
+}
+.icon-perm-identity {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -200px;
+}
+.icon-perm-media {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -200px;
+}
+.icon-perm-phone-msg {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -200px;
+}
+.icon-perm-scan-wifi {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -200px;
+}
+.icon-picture-in-picture {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -200px;
+}
+.icon-polymer {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -200px;
+}
+.icon-print {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -200px;
+}
+.icon-query-builder {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -200px;
+}
+.icon-question-answer {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -200px;
+}
+.icon-receipt {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -200px;
+}
+.icon-redeem {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -200px;
+}
+.icon-reorder {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -200px;
+}
+.icon-report-problem {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -200px;
+}
+.icon-restore {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -200px;
+}
+.icon-room {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -200px;
+}
+.icon-schedule {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -200px;
+}
+.icon-search {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -240px;
+}
+.icon-settings {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -240px;
+}
+.icon-settings-applications {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -240px;
+}
+.icon-settings-backup-restore {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -240px;
+}
+.icon-settings-bluetooth {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -240px;
+}
+.icon-settings-cell {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -240px;
+}
+.icon-settings-display {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -240px;
+}
+.icon-settings-ethernet {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -240px;
+}
+.icon-settings-input-antenna {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -240px;
+}
+.icon-settings-input-component {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -240px;
+}
+.icon-settings-input-composite {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -240px;
+}
+.icon-settings-input-hdmi {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -240px;
+}
+.icon-settings-input-svideo {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -240px;
+}
+.icon-settings-overscan {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -240px;
+}
+.icon-settings-phone {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -240px;
+}
+.icon-settings-power {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -240px;
+}
+.icon-settings-remote {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -280px;
+}
+.icon-settings-voice {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -280px;
+}
+.icon-shop {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -280px;
+}
+.icon-shop-two {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -280px;
+}
+.icon-shopping-basket {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -280px;
+}
+.icon-shopping-cart {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -280px;
+}
+.icon-speaker-notes {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -280px;
+}
+.icon-spellcheck {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -280px;
+}
+.icon-star-rate {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -280px;
+}
+.icon-stars {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -280px;
+}
+.icon-store {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -280px;
+}
+.icon-subject {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -280px;
+}
+.icon-supervisor-account {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -280px;
+}
+.icon-swap-horiz {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -280px;
+}
+.icon-swap-vert {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -280px;
+}
+.icon-swap-vert-circle {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -280px;
+}
+.icon-system-update-tv {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -320px;
+}
+.icon-tab {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -320px;
+}
+.icon-tab-unselected {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -320px;
+}
+.icon-theaters {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -320px;
+}
+.icon-thumb-down {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -320px;
+}
+.icon-thumb-up {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -320px;
+}
+.icon-thumbs-up-down {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -320px;
+}
+.icon-toc {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -320px;
+}
+.icon-today {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -320px;
+}
+.icon-track-changes {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -320px;
+}
+.icon-translate {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -320px;
+}
+.icon-trending-down {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -320px;
+}
+.icon-trending-neutral {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -320px;
+}
+.icon-trending-up {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -320px;
+}
+.icon-turned-in {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -320px;
+}
+.icon-turned-in-not {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -320px;
+}
+.icon-verified-user {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -360px;
+}
+.icon-view-agenda {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -360px;
+}
+.icon-view-array {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -360px;
+}
+.icon-view-carousel {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -360px;
+}
+.icon-view-column {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -360px;
+}
+.icon-view-day {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -360px;
+}
+.icon-view-headline {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -360px;
+}
+.icon-view-list {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -360px;
+}
+.icon-view-module {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -360px;
+}
+.icon-view-quilt {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -360px;
+}
+.icon-view-stream {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -360px;
+}
+.icon-view-week {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -360px;
+}
+.icon-visibility {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -360px;
+}
+.icon-visibility-off {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -360px;
+}
+.icon-wallet-giftcard {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -360px;
+}
+.icon-wallet-membership {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -360px;
+}
+.icon-wallet-travel {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -400px;
+}
+.icon-work {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -400px;
+}
+.icon-error {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -400px;
+}
+.icon-warning {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -400px;
+}
+.icon-album {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -400px;
+}
+.icon-av-timer {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -400px;
+}
+.icon-closed-caption {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -400px;
+}
+.icon-equalizer {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -400px;
+}
+.icon-explicit {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -400px;
+}
+.icon-fast-forward {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -400px;
+}
+.icon-fast-rewind {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -400px;
+}
+.icon-games {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -400px;
+}
+.icon-hearing {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -400px;
+}
+.icon-high-quality {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -400px;
+}
+.icon-loop {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -400px;
+}
+.icon-mic {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -400px;
+}
+.icon-mnone {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -440px;
+}
+.icon-moff {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -440px;
+}
+.icon-movie {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -440px;
+}
+.icon-my-library-add {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -440px;
+}
+.icon-my-library-books {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -440px;
+}
+.icon-my-library-mus {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -440px;
+}
+.icon-new-releases {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -440px;
+}
+.icon-not-interested {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -440px;
+}
+.icon-pause {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -440px;
+}
+.icon-pause-circle-fill {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -440px;
+}
+.icon-pause-circle-outline {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -440px;
+}
+.icon-play-arrow {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -440px;
+}
+.icon-play-circle-fill {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -440px;
+}
+.icon-play-circle-outline {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -440px;
+}
+.icon-play-shopping-bag {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -440px;
+}
+.icon-playlist-add {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -440px;
+}
+.icon-queue {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -480px;
+}
+.icon-queue-mus {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -480px;
+}
+.icon-radio {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -480px;
+}
+.icon-recent-actors {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -480px;
+}
+.icon-repeat {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -480px;
+}
+.icon-repeat-one {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -480px;
+}
+.icon-replay {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -480px;
+}
+.icon-shuffle {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -480px;
+}
+.icon-skip-next {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -480px;
+}
+.icon-skip-previous {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -480px;
+}
+.icon-snooze {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -480px;
+}
+.icon-stop {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -480px;
+}
+.icon-subtitles {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -480px;
+}
+.icon-surround-sound {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -480px;
+}
+.icon-video-collection {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -480px;
+}
+.icon-videocam {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -480px;
+}
+.icon-videocam-off {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -520px;
+}
+.icon-volume-down {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -520px;
+}
+.icon-volume-mute {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -520px;
+}
+.icon-volume-off {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -520px;
+}
+.icon-volume-up {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -520px;
+}
+.icon-web {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -520px;
+}
+.icon-business {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -520px;
+}
+.icon-call {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -520px;
+}
+.icon-call-end {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -520px;
+}
+.icon-call-made {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -520px;
+}
+.icon-call-merge {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -520px;
+}
+.icon-call-missed {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -520px;
+}
+.icon-call-received {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -520px;
+}
+.icon-call-split {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -520px;
+}
+.icon-chat {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -520px;
+}
+.icon-clear-all {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -520px;
+}
+.icon-comment {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -560px;
+}
+.icon-contacts {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -560px;
+}
+.icon-dialer-sip {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -560px;
+}
+.icon-dialpad {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -560px;
+}
+.icon-dnd-on {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -560px;
+}
+.icon-email {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -560px;
+}
+.icon-forum {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -560px;
+}
+.icon-import-export {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -560px;
+}
+.icon-invert-colors-off {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -560px;
+}
+.icon-invert-colors-on {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -560px;
+}
+.icon-live-help {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -560px;
+}
+.icon-location-off {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -560px;
+}
+.icon-location-on {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -560px;
+}
+.icon-message {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -560px;
+}
+.icon-messenger {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -560px;
+}
+.icon-no-sim {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -560px;
+}
+.icon-phone {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -600px;
+}
+.icon-portable-wifi-off {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -600px;
+}
+.icon-quick-contacts-dialer {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -600px;
+}
+.icon-quick-contacts-mail {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -600px;
+}
+.icon-ring-volume {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -600px;
+}
+.icon-stay-current-landscape {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -600px;
+}
+.icon-stay-current-portrait {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -600px;
+}
+.icon-stay-primary-landscape {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -600px;
+}
+.icon-stay-primary-portrait {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -600px;
+}
+.icon-swap-calls {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -600px;
+}
+.icon-textsms {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -600px;
+}
+.icon-voicemail {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -600px;
+}
+.icon-vpn-key {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -600px;
+}
+.icon-add {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -600px;
+}
+.icon-add-box {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -600px;
+}
+.icon-add-circle {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -600px;
+}
+.icon-add-circle-outline {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -640px;
+}
+.icon-archive {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -640px;
+}
+.icon-backspace {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -640px;
+}
+.icon-block {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -640px;
+}
+.icon-clear {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -640px;
+}
+.icon-content-copy {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -640px;
+}
+.icon-content-cut {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -640px;
+}
+.icon-content-paste {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -640px;
+}
+.icon-create {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -640px;
+}
+.icon-drafts {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -640px;
+}
+.icon-filter-list {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -640px;
+}
+.icon-flag {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -640px;
+}
+.icon-forward {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -640px;
+}
+.icon-gesture {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -640px;
+}
+.icon-inbox {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -640px;
+}
+.icon-link {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -640px;
+}
+.icon-mail {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -680px;
+}
+.icon-markunread {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -680px;
+}
+.icon-redo {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -680px;
+}
+.icon-remove {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -680px;
+}
+.icon-remove-circle {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -680px;
+}
+.icon-remove-circle-outline {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -680px;
+}
+.icon-reply {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -680px;
+}
+.icon-reply-all {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -680px;
+}
+.icon-report {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -680px;
+}
+.icon-save {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -680px;
+}
+.icon-select-all {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -680px;
+}
+.icon-send {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -680px;
+}
+.icon-sort {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -680px;
+}
+.icon-text-format {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -680px;
+}
+.icon-undo {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -680px;
+}
+.icon-access-alarm {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -680px;
+}
+.icon-access-alarms {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -720px;
+}
+.icon-access-time {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -720px;
+}
+.icon-add-alarm {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -720px;
+}
+.icon-airplanemode-off {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -720px;
+}
+.icon-airplanemode-on {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -720px;
+}
+.icon-battery-20 {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -720px;
+}
+.icon-battery-30 {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -720px;
+}
+.icon-battery-50 {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -720px;
+}
+.icon-battery-60 {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -720px;
+}
+.icon-battery-80 {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -720px;
+}
+.icon-battery-90 {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -720px;
+}
+.icon-battery-alert {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -720px;
+}
+.icon-battery-charging-20 {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -720px;
+}
+.icon-battery-charging-30 {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -720px;
+}
+.icon-battery-charging-50 {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -720px;
+}
+.icon-battery-charging-60 {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -720px;
+}
+.icon-battery-charging-80 {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -760px;
+}
+.icon-battery-charging-90 {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -760px;
+}
+.icon-battery-charging-full {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -760px;
+}
+.icon-battery-full {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -760px;
+}
+.icon-battery-std {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -760px;
+}
+.icon-battery-unknown {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -760px;
+}
+.icon-bluetooth {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -760px;
+}
+.icon-bluetooth-connected {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -760px;
+}
+.icon-bluetooth-disabled {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -760px;
+}
+.icon-bluetooth-searching {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -760px;
+}
+.icon-brightness-auto {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -760px;
+}
+.icon-brightness-high {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -760px;
+}
+.icon-brightness-low {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -760px;
+}
+.icon-brightness-medium {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -760px;
+}
+.icon-data-usage {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -760px;
+}
+.icon-developer-mode {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -760px;
+}
+.icon-devices {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -800px;
+}
+.icon-dvr {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -800px;
+}
+.icon-gps-fixed {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -800px;
+}
+.icon-gps-not-fixed {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -800px;
+}
+.icon-gps-off {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -800px;
+}
+.icon-location-disabled {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -800px;
+}
+.icon-location-searching {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -800px;
+}
+.icon-multitrack-audio {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -800px;
+}
+.icon-network-cell {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -800px;
+}
+.icon-network-wifi {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -800px;
+}
+.icon-nfc {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -800px;
+}
+.icon-now-wallpaper {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -800px;
+}
+.icon-now-widgets {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -800px;
+}
+.icon-screen-lock-landscape {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -800px;
+}
+.icon-screen-lock-portrait {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -800px;
+}
+.icon-screen-lock-rotation {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -800px;
+}
+.icon-screen-rotation {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -840px;
+}
+.icon-sd-storage {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -840px;
+}
+.icon-settings-system-daydream {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -840px;
+}
+.icon-signal-cellular-0-bar {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -840px;
+}
+.icon-signal-cellular-1-bar {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -840px;
+}
+.icon-signal-cellular-2-bar {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -840px;
+}
+.icon-signal-cellular-3-bar {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -840px;
+}
+.icon-signal-cellular-4-bar {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -840px;
+}
+.icon-signal-cellular-connected-no-internet-0-bar {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -840px;
+}
+.icon-signal-cellular-connected-no-internet-1-bar {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -840px;
+}
+.icon-signal-cellular-connected-no-internet-2-bar {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -840px;
+}
+.icon-signal-cellular-connected-no-internet-3-bar {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -840px;
+}
+.icon-signal-cellular-connected-no-internet-4-bar {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -840px;
+}
+.icon-signal-cellular-no-sim {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -840px;
+}
+.icon-signal-cellular-null {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -840px;
+}
+.icon-signal-cellular-off {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -840px;
+}
+.icon-signal-wifi-0-bar {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -880px;
+}
+.icon-signal-wifi-1-bar {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -880px;
+}
+.icon-signal-wifi-2-bar {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -880px;
+}
+.icon-signal-wifi-3-bar {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -880px;
+}
+.icon-signal-wifi-4-bar {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -880px;
+}
+.icon-signal-wifi-off {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -880px;
+}
+.icon-signal-wifi-statusbar-1-bar {
+	width: 26px;
+	height: 24px;
+	background-position: -240px -880px;
+}
+.icon-signal-wifi-statusbar-2-bar {
+	width: 26px;
+	height: 24px;
+	background-position: -280px -880px;
+}
+.icon-signal-wifi-statusbar-3-bar {
+	width: 26px;
+	height: 24px;
+	background-position: -320px -880px;
+}
+.icon-signal-wifi-statusbar-4-bar {
+	width: 26px;
+	height: 24px;
+	background-position: -360px -880px;
+}
+.icon-signal-wifi-statusbar-connected-no-internet-1 {
+	width: 26px;
+	height: 24px;
+	background-position: -400px -880px;
+}
+.icon-signal-wifi-statusbar-connected-no-internet-2 {
+	width: 26px;
+	height: 24px;
+	background-position: -440px -880px;
+}
+.icon-signal-wifi-statusbar-connected-no-internet-3 {
+	width: 26px;
+	height: 24px;
+	background-position: -480px -880px;
+}
+.icon-signal-wifi-statusbar-connected-no-internet-4 {
+	width: 26px;
+	height: 24px;
+	background-position: -520px -880px;
+}
+.icon-signal-wifi-statusbar-connected-no-internet {
+	width: 26px;
+	height: 24px;
+	background-position: -560px -880px;
+}
+.icon-signal-wifi-statusbar-not-connected {
+	width: 26px;
+	height: 24px;
+	background-position: -600px -880px;
+}
+.icon-signal-wifi-statusbar-null {
+	width: 26px;
+	height: 24px;
+	background-position: 0 -920px;
+}
+.icon-storage {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -920px;
+}
+.icon-usb {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -920px;
+}
+.icon-wifi-lock {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -920px;
+}
+.icon-wifi-tethering {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -920px;
+}
+.icon-attach-file {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -920px;
+}
+.icon-attach-money {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -920px;
+}
+.icon-border-all {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -920px;
+}
+.icon-border-bottom {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -920px;
+}
+.icon-border-clear {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -920px;
+}
+.icon-border-color {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -920px;
+}
+.icon-border-horizontal {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -920px;
+}
+.icon-border-inner {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -920px;
+}
+.icon-border-left {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -920px;
+}
+.icon-border-outer {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -920px;
+}
+.icon-border-right {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -920px;
+}
+.icon-border-style {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -960px;
+}
+.icon-border-top {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -960px;
+}
+.icon-border-vertical {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -960px;
+}
+.icon-format-align-center {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -960px;
+}
+.icon-format-align-justify {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -960px;
+}
+.icon-format-align-left {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -960px;
+}
+.icon-format-align-right {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -960px;
+}
+.icon-format-bold {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -960px;
+}
+.icon-format-clear {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -960px;
+}
+.icon-format-color-fill {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -960px;
+}
+.icon-format-color-reset {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -960px;
+}
+.icon-format-color-text {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -960px;
+}
+.icon-format-indent-decrease {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -960px;
+}
+.icon-format-indent-increase {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -960px;
+}
+.icon-format-ital {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -960px;
+}
+.icon-format-line-spacing {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -960px;
+}
+.icon-format-list-bulleted {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -1000px;
+}
+.icon-format-list-numbered {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -1000px;
+}
+.icon-format-paint {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -1000px;
+}
+.icon-format-quote {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -1000px;
+}
+.icon-format-size {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -1000px;
+}
+.icon-format-strikethrough {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -1000px;
+}
+.icon-format-textdirection-l-to-r {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -1000px;
+}
+.icon-format-textdirection-r-to-l {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -1000px;
+}
+.icon-format-underline {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -1000px;
+}
+.icon-functions {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -1000px;
+}
+.icon-insert-chart {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -1000px;
+}
+.icon-insert-comment {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -1000px;
+}
+.icon-insert-drive-file {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -1000px;
+}
+.icon-insert-emoticon {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -1000px;
+}
+.icon-insert-invitation {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -1000px;
+}
+.icon-insert-link {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -1000px;
+}
+.icon-insert-photo {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -1040px;
+}
+.icon-merge-type {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -1040px;
+}
+.icon-mode-comment {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -1040px;
+}
+.icon-mode-edit {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -1040px;
+}
+.icon-publish {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -1040px;
+}
+.icon-vertical-align-bottom {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -1040px;
+}
+.icon-vertical-align-center {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -1040px;
+}
+.icon-vertical-align-top {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -1040px;
+}
+.icon-wrap-text {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -1040px;
+}
+.icon-attachment {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -1040px;
+}
+.icon-cloud {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -1040px;
+}
+.icon-cloud-circle {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -1040px;
+}
+.icon-cloud-done {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -1040px;
+}
+.icon-cloud-download {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -1040px;
+}
+.icon-cloud-off {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -1040px;
+}
+.icon-cloud-queue {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -1040px;
+}
+.icon-cloud-upload {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -1080px;
+}
+.icon-file-download {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -1080px;
+}
+.icon-file-upload {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -1080px;
+}
+.icon-folder {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -1080px;
+}
+.icon-folder-open {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -1080px;
+}
+.icon-folder-shared {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -1080px;
+}
+.icon-cast {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -1080px;
+}
+.icon-cast-connected {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -1080px;
+}
+.icon-computer {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -1080px;
+}
+.icon-desktop-mac {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -1080px;
+}
+.icon-desktop-windows {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -1080px;
+}
+.icon-dock {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -1080px;
+}
+.icon-gamepad {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -1080px;
+}
+.icon-headset {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -1080px;
+}
+.icon-headset-m {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -1080px;
+}
+.icon-keyboard {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -1080px;
+}
+.icon-keyboard-alt {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -1120px;
+}
+.icon-keyboard-arrow-down {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -1120px;
+}
+.icon-keyboard-arrow-left {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -1120px;
+}
+.icon-keyboard-arrow-right {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -1120px;
+}
+.icon-keyboard-arrow-up {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -1120px;
+}
+.icon-keyboard-backspace {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -1120px;
+}
+.icon-keyboard-capslock {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -1120px;
+}
+.icon-keyboard-control {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -1120px;
+}
+.icon-keyboard-hide {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -1120px;
+}
+.icon-keyboard-return {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -1120px;
+}
+.icon-keyboard-tab {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -1120px;
+}
+.icon-keyboard-voice {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -1120px;
+}
+.icon-laptop {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -1120px;
+}
+.icon-laptop-chromebook {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -1120px;
+}
+.icon-laptop-mac {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -1120px;
+}
+.icon-laptop-windows {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -1120px;
+}
+.icon-memory {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -1160px;
+}
+.icon-mouse {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -1160px;
+}
+.icon-phone-android {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -1160px;
+}
+.icon-phone-iphone {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -1160px;
+}
+.icon-phonelink {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -1160px;
+}
+.icon-phonelink-off {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -1160px;
+}
+.icon-security {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -1160px;
+}
+.icon-sim-card {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -1160px;
+}
+.icon-smartphone {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -1160px;
+}
+.icon-speaker {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -1160px;
+}
+.icon-tablet {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -1160px;
+}
+.icon-tablet-android {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -1160px;
+}
+.icon-tablet-mac {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -1160px;
+}
+.icon-tv {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -1160px;
+}
+.icon-watch {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -1160px;
+}
+.icon-add-to-photos {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -1160px;
+}
+.icon-adjust {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -1200px;
+}
+.icon-assistant-photo {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -1200px;
+}
+.icon-audiotrack {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -1200px;
+}
+.icon-blur-circular {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -1200px;
+}
+.icon-blur-linear {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -1200px;
+}
+.icon-blur-off {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -1200px;
+}
+.icon-blur-on {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -1200px;
+}
+.icon-brightness-1 {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -1200px;
+}
+.icon-brightness-2 {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -1200px;
+}
+.icon-brightness-3 {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -1200px;
+}
+.icon-brightness-4 {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -1200px;
+}
+.icon-brightness-5 {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -1200px;
+}
+.icon-brightness-6 {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -1200px;
+}
+.icon-brightness-7 {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -1200px;
+}
+.icon-brush {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -1200px;
+}
+.icon-camera {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -1200px;
+}
+.icon-camera-alt {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -1240px;
+}
+.icon-camera-front {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -1240px;
+}
+.icon-camera-rear {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -1240px;
+}
+.icon-camera-roll {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -1240px;
+}
+.icon-center-focus-strong {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -1240px;
+}
+.icon-center-focus-weak {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -1240px;
+}
+.icon-collections {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -1240px;
+}
+.icon-color-lens {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -1240px;
+}
+.icon-colorize {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -1240px;
+}
+.icon-compare {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -1240px;
+}
+.icon-control-point {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -1240px;
+}
+.icon-control-point-duplicate {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -1240px;
+}
+.icon-crop-3-2 {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -1240px;
+}
+.icon-crop-5-4 {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -1240px;
+}
+.icon-crop-7-5 {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -1240px;
+}
+.icon-crop-16-9 {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -1240px;
+}
+.icon-crop {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -1280px;
+}
+.icon-crop-din {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -1280px;
+}
+.icon-crop-free {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -1280px;
+}
+.icon-crop-landscape {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -1280px;
+}
+.icon-crop-original {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -1280px;
+}
+.icon-crop-portrait {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -1280px;
+}
+.icon-crop-square {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -1280px;
+}
+.icon-dehaze {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -1280px;
+}
+.icon-details {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -1280px;
+}
+.icon-edit {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -1280px;
+}
+.icon-exposure {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -1280px;
+}
+.icon-exposure-minus-1 {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -1280px;
+}
+.icon-exposure-minus-2 {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -1280px;
+}
+.icon-exposure-plus-1 {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -1280px;
+}
+.icon-exposure-plus-2 {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -1280px;
+}
+.icon-exposure-zero {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -1280px;
+}
+.icon-filter-1 {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -1320px;
+}
+.icon-filter-2 {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -1320px;
+}
+.icon-filter-3 {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -1320px;
+}
+.icon-filter-4 {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -1320px;
+}
+.icon-filter-5 {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -1320px;
+}
+.icon-filter-6 {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -1320px;
+}
+.icon-filter-7 {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -1320px;
+}
+.icon-filter-8 {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -1320px;
+}
+.icon-filter-9 {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -1320px;
+}
+.icon-filter-9-plus {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -1320px;
+}
+.icon-filter {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -1320px;
+}
+.icon-filter-b-and-w {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -1320px;
+}
+.icon-filter-center-focus {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -1320px;
+}
+.icon-filter-drama {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -1320px;
+}
+.icon-filter-frames {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -1320px;
+}
+.icon-filter-hdr {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -1320px;
+}
+.icon-filter-none {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -1360px;
+}
+.icon-filter-tilt-shift {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -1360px;
+}
+.icon-filter-vintage {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -1360px;
+}
+.icon-flare {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -1360px;
+}
+.icon-flash-auto {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -1360px;
+}
+.icon-flash-off {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -1360px;
+}
+.icon-flash-on {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -1360px;
+}
+.icon-flip {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -1360px;
+}
+.icon-gradient {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -1360px;
+}
+.icon-grain {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -1360px;
+}
+.icon-grid-off {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -1360px;
+}
+.icon-grid-on {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -1360px;
+}
+.icon-hdr-off {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -1360px;
+}
+.icon-hdr-on {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -1360px;
+}
+.icon-hdr-strong {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -1360px;
+}
+.icon-hdr-weak {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -1360px;
+}
+.icon-healing {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -1400px;
+}
+.icon-image {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -1400px;
+}
+.icon-image-aspect-ratio {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -1400px;
+}
+.icon-iso {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -1400px;
+}
+.icon-landscape {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -1400px;
+}
+.icon-leak-add {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -1400px;
+}
+.icon-leak-remove {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -1400px;
+}
+.icon-lens {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -1400px;
+}
+.icon-looks-3 {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -1400px;
+}
+.icon-looks-4 {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -1400px;
+}
+.icon-looks-5 {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -1400px;
+}
+.icon-looks-6 {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -1400px;
+}
+.icon-looks {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -1400px;
+}
+.icon-looks-one {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -1400px;
+}
+.icon-looks-two {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -1400px;
+}
+.icon-loupe {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -1400px;
+}
+.icon-movie-creation {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -1440px;
+}
+.icon-nature {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -1440px;
+}
+.icon-nature-people {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -1440px;
+}
+.icon-navigate-before {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -1440px;
+}
+.icon-navigate-next {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -1440px;
+}
+.icon-palette {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -1440px;
+}
+.icon-panorama {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -1440px;
+}
+.icon-panorama-fisheye {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -1440px;
+}
+.icon-panorama-horizontal {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -1440px;
+}
+.icon-panorama-vertical {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -1440px;
+}
+.icon-panorama-wide-angle {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -1440px;
+}
+.icon-photo {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -1440px;
+}
+.icon-photo-album {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -1440px;
+}
+.icon-photo-camera {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -1440px;
+}
+.icon-photo-library {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -1440px;
+}
+.icon-portrait {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -1440px;
+}
+.icon-remove-red-eye {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -1480px;
+}
+.icon-rotate-left {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -1480px;
+}
+.icon-rotate-right {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -1480px;
+}
+.icon-slideshow {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -1480px;
+}
+.icon-straighten {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -1480px;
+}
+.icon-style {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -1480px;
+}
+.icon-switch-camera {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -1480px;
+}
+.icon-switch-video {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -1480px;
+}
+.icon-tag-faces {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -1480px;
+}
+.icon-texture {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -1480px;
+}
+.icon-timelapse {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -1480px;
+}
+.icon-timer-3 {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -1480px;
+}
+.icon-timer-10 {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -1480px;
+}
+.icon-timer {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -1480px;
+}
+.icon-timer-auto {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -1480px;
+}
+.icon-timer-off {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -1480px;
+}
+.icon-tonality {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -1520px;
+}
+.icon-transform {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -1520px;
+}
+.icon-tune {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -1520px;
+}
+.icon-wb-auto {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -1520px;
+}
+.icon-wb-cloudy {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -1520px;
+}
+.icon-wb-incandescent {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -1520px;
+}
+.icon-wb-irradescent {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -1520px;
+}
+.icon-wb-sunny {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -1520px;
+}
+.icon-beenhere {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -1520px;
+}
+.icon-directions {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -1520px;
+}
+.icon-directions-bike {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -1520px;
+}
+.icon-directions-bus {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -1520px;
+}
+.icon-directions-car {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -1520px;
+}
+.icon-directions-ferry {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -1520px;
+}
+.icon-directions-subway {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -1520px;
+}
+.icon-directions-train {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -1520px;
+}
+.icon-directions-transit {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -1560px;
+}
+.icon-directions-walk {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -1560px;
+}
+.icon-flight {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -1560px;
+}
+.icon-hotel {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -1560px;
+}
+.icon-layers {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -1560px;
+}
+.icon-layers-clear {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -1560px;
+}
+.icon-local-airport {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -1560px;
+}
+.icon-local-atm {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -1560px;
+}
+.icon-local-attraction {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -1560px;
+}
+.icon-local-bar {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -1560px;
+}
+.icon-local-cafe {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -1560px;
+}
+.icon-local-car-wash {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -1560px;
+}
+.icon-local-convenience-store {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -1560px;
+}
+.icon-local-drink {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -1560px;
+}
+.icon-local-florist {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -1560px;
+}
+.icon-local-gas-station {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -1560px;
+}
+.icon-local-grocery-store {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -1600px;
+}
+.icon-local-hospital {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -1600px;
+}
+.icon-local-hotel {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -1600px;
+}
+.icon-local-laundry-service {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -1600px;
+}
+.icon-local-library {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -1600px;
+}
+.icon-local-mall {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -1600px;
+}
+.icon-local-movies {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -1600px;
+}
+.icon-local-offer {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -1600px;
+}
+.icon-local-parking {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -1600px;
+}
+.icon-local-pharmacy {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -1600px;
+}
+.icon-local-phone {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -1600px;
+}
+.icon-local-pizza {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -1600px;
+}
+.icon-local-play {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -1600px;
+}
+.icon-local-post-office {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -1600px;
+}
+.icon-local-print-shop {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -1600px;
+}
+.icon-local-restaurant {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -1600px;
+}
+.icon-local-see {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -1640px;
+}
+.icon-local-shipping {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -1640px;
+}
+.icon-local-taxi {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -1640px;
+}
+.icon-location-history {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -1640px;
+}
+.icon-map {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -1640px;
+}
+.icon-my-location {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -1640px;
+}
+.icon-navigation {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -1640px;
+}
+.icon-pin-drop {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -1640px;
+}
+.icon-place {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -1640px;
+}
+.icon-rate-review {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -1640px;
+}
+.icon-restaurant-menu {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -1640px;
+}
+.icon-satellite {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -1640px;
+}
+.icon-store-mall-directory {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -1640px;
+}
+.icon-terrain {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -1640px;
+}
+.icon-traff {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -1640px;
+}
+.icon-apps {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -1640px;
+}
+.icon-arrow-back {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -1680px;
+}
+.icon-arrow-drop-down {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -1680px;
+}
+.icon-arrow-drop-down-circle {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -1680px;
+}
+.icon-arrow-drop-up {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -1680px;
+}
+.icon-arrow-forward {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -1680px;
+}
+.icon-cancel {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -1680px;
+}
+.icon-check {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -1680px;
+}
+.icon-chevron-left {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -1680px;
+}
+.icon-chevron-right {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -1680px;
+}
+.icon-close {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -1680px;
+}
+.icon-expand-less {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -1680px;
+}
+.icon-expand-more {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -1680px;
+}
+.icon-fullscreen {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -1680px;
+}
+.icon-fullscreen-exit {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -1680px;
+}
+.icon-menu {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -1680px;
+}
+.icon-more-horiz {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -1680px;
+}
+.icon-more-vert {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -1720px;
+}
+.icon-refresh {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -1720px;
+}
+.icon-unfold-less {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -1720px;
+}
+.icon-unfold-more {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -1720px;
+}
+.icon-adb {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -1720px;
+}
+.icon-bluetooth-audio {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -1720px;
+}
+.icon-disc-full {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -1720px;
+}
+.icon-dnd-forwardslash {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -1720px;
+}
+.icon-do-not-disturb {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -1720px;
+}
+.icon-drive-eta {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -1720px;
+}
+.icon-event-available {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -1720px;
+}
+.icon-event-busy {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -1720px;
+}
+.icon-event-note {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -1720px;
+}
+.icon-folder-special {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -1720px;
+}
+.icon-mms {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -1720px;
+}
+.icon-more {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -1720px;
+}
+.icon-network-locked {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -1760px;
+}
+.icon-phone-bluetooth-speaker {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -1760px;
+}
+.icon-phone-forwarded {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -1760px;
+}
+.icon-phone-in-talk {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -1760px;
+}
+.icon-phone-locked {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -1760px;
+}
+.icon-phone-missed {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -1760px;
+}
+.icon-phone-paused {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -1760px;
+}
+.icon-play-download {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -1760px;
+}
+.icon-play-install {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -1760px;
+}
+.icon-sd-card {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -1760px;
+}
+.icon-sim-card-alert {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -1760px;
+}
+.icon-sms {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -1760px;
+}
+.icon-sms-failed {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -1760px;
+}
+.icon-sync {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -1760px;
+}
+.icon-sync-disabled {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -1760px;
+}
+.icon-sync-problem {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -1760px;
+}
+.icon-system-update {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -1800px;
+}
+.icon-tap-and-play {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -1800px;
+}
+.icon-time-to-leave {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -1800px;
+}
+.icon-vibration {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -1800px;
+}
+.icon-voice-chat {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -1800px;
+}
+.icon-vpn-lock {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -1800px;
+}
+.icon-cake {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -1800px;
+}
+.icon-domain {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -1800px;
+}
+.icon-group {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -1800px;
+}
+.icon-group-add {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -1800px;
+}
+.icon-location-city {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -1800px;
+}
+.icon-mood {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -1800px;
+}
+.icon-notifications {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -1800px;
+}
+.icon-notifications-none {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -1800px;
+}
+.icon-notifications-off {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -1800px;
+}
+.icon-notifications-on {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -1800px;
+}
+.icon-notifications-paused {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -1840px;
+}
+.icon-pages {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -1840px;
+}
+.icon-party-mode {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -1840px;
+}
+.icon-people {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -1840px;
+}
+.icon-people-outline {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -1840px;
+}
+.icon-person {
+	width: 24px;
+	height: 24px;
+	background-position: -200px -1840px;
+}
+.icon-person-add {
+	width: 24px;
+	height: 24px;
+	background-position: -240px -1840px;
+}
+.icon-person-outline {
+	width: 24px;
+	height: 24px;
+	background-position: -280px -1840px;
+}
+.icon-plus-one {
+	width: 24px;
+	height: 24px;
+	background-position: -320px -1840px;
+}
+.icon-poll {
+	width: 24px;
+	height: 24px;
+	background-position: -360px -1840px;
+}
+.icon-publ {
+	width: 24px;
+	height: 24px;
+	background-position: -400px -1840px;
+}
+.icon-school {
+	width: 24px;
+	height: 24px;
+	background-position: -440px -1840px;
+}
+.icon-share {
+	width: 24px;
+	height: 24px;
+	background-position: -480px -1840px;
+}
+.icon-whatshot {
+	width: 24px;
+	height: 24px;
+	background-position: -520px -1840px;
+}
+.icon-check-box {
+	width: 24px;
+	height: 24px;
+	background-position: -560px -1840px;
+}
+.icon-check-box-outline-blank {
+	width: 24px;
+	height: 24px;
+	background-position: -600px -1840px;
+}
+.icon-radio-button-off {
+	width: 24px;
+	height: 24px;
+	background-position: 0 -1880px;
+}
+.icon-radio-button-on {
+	width: 24px;
+	height: 24px;
+	background-position: -40px -1880px;
+}
+.icon-star {
+	width: 24px;
+	height: 24px;
+	background-position: -80px -1880px;
+}
+.icon-star-half {
+	width: 24px;
+	height: 24px;
+	background-position: -120px -1880px;
+}
+.icon-star-outline {
+	width: 24px;
+	height: 24px;
+	background-position: -160px -1880px;
+}
