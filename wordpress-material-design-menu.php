@@ -115,6 +115,8 @@ class WMDM
                 <?php echo '
                     <img src="'.plugins_url( '/sprite/class.png' , __FILE__ ).'" alt="" class="img-responsive"/>
                     <h3>Podgląd klas ikon:</h3> <a href="'.plugins_url( '/sprite/sprite.html' , __FILE__ ).'" target="_blank">zobacz podgląd</a>
+                    <br><br><hr>
+                    <img src="'.plugins_url( '/sprite/buttons.png' , __FILE__ ).'" alt="" class="img-responsive"/>
                     <h3>Pole <i>"link"</i></h3>
                     <p>
                     Linki powinny być zapisane w formacie:<br>
@@ -149,7 +151,7 @@ class WMDM
 
         add_settings_field('logo_login_1', 'Logo', array( &$this, 'section_logo_login_1' ), 'wmdm_settings', 'logo_login');
 
-        add_settings_field('tablet_menu_1', 'Prawa strona menu na tablecie', array( &$this, 'section_tablet_menu' ), 'wmdm_settings', 'tablet_menu');
+        add_settings_field('tablet_menu_1', 'Prawa strona paska menu na tablecie', array( &$this, 'section_tablet_menu' ), 'wmdm_settings', 'tablet_menu');
 
     }
 
@@ -172,7 +174,7 @@ class WMDM
         <span class='upload'>
             <img src='<?php echo esc_url( $options["logo_image"] ); ?>' class='preview-upload' /></label>
             <label for="wmdm_settings[logo_image]"><input type='text' id='wmdm_settings[logo_image]' class='regular-text text-upload' name='wmdm_settings[logo_image]' value='<?php echo esc_url( $options["logo_image"] ); ?>'/>
-                <input type='button' class='button button-upload' value='Upload an image'/></br>
+                <input type='button' class='button button-upload' value='Wybierz logo'/></br>
         </span>
         <span class="text">
            <label for="wmdm_settings[login_link]">Link logowania <input type='text' id='wmdm_settings[login_link]' class='regular-text' name='wmdm_settings[login_link]' value='<?php echo esc_url($options["login_link"]); ?>'/></label><br>
@@ -185,7 +187,7 @@ class WMDM
         $options = get_option( 'wmdm_settings' );
         ?>
 
-        <span class='text'>
+        <span class='text box'>
             <label for="wmdm_settings[box_1_class]">Klasa <input type='text' id='wmdm_settings[box_1_class]' class='regular-text' name='wmdm_settings[box_1_class]' value='<?php echo $options["box_1_class"]; ?>'/></label>
             <label for="wmdm_settings[box_1_label]">Opis <input type='text' id='wmdm_settings[box_1_label]' class='regular-text' name='wmdm_settings[box_1_label]' value='<?php echo $options["box_1_label"]; ?>'/></label>
             <label for="wmdm_settings[box_1_link]">Link <input type='text' id='wmdm_settings[box_1_link]' class='regular-text' name='wmdm_settings[box_1_link]' value='<?php echo $options["box_1_link"] ; ?>'/></label>
@@ -195,7 +197,7 @@ class WMDM
     function section_box_2() {
         $options = get_option( 'wmdm_settings' );
         ?>
-        <span class='text'>
+        <span class='text box'>
             <label for="wmdm_settings[box_2_class]">Klasa <input type='text' id='wmdm_settings[box_2_class]' class='regular-text' name='wmdm_settings[box_2_class]' value='<?php echo $options["box_2_class"]; ?>'/></label>
             <label for="wmdm_settings[box_2_label]">Opis <input type='text' id='wmdm_settings[box_2_label]' class='regular-text' name='wmdm_settings[box_2_label]' value='<?php echo $options["box_2_label"]; ?>'/></label>
             <label for="wmdm_settings[box_2_link]">Link <input type='text' id='wmdm_settings[box_2_link]' class='regular-text' name='wmdm_settings[box_2_link]' value='<?php echo  $options["box_2_link"]; ?>'/></label>
@@ -205,7 +207,7 @@ class WMDM
     function section_box_3() {
         $options = get_option( 'wmdm_settings' );
         ?>
-        <span class='text'>
+        <span class='text box'>
             <label for="wmdm_settings[box_3_class]">Klasa <input type='text' id='wmdm_settings[box_3_class]' class='regular-text' name='wmdm_settings[box_3_class]' value='<?php echo $options["box_3_class"]; ?>'/></label>
             <label for="wmdm_settings[box_3_label]">Opis <input type='text' id='wmdm_settings[box_3_label]' class='regular-text' name='wmdm_settings[box_3_label]' value='<?php echo $options["box_3_label"]; ?>'/></label>
             <label for="wmdm_settings[box_3_link]">Link <input type='text' id='wmdm_settings[box_3_link]' class='regular-text' name='wmdm_settings[box_3_link]' value='<?php echo  $options["box_3_link"] ; ?>'/></label>

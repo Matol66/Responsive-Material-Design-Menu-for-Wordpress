@@ -1,6 +1,6 @@
 
 <?php function print_frontend($options){ ?>
-<!--    --><?php //var_dump($options); ?>
+    <?php var_dump($options); ?>
 
     <div class="container visible-xs header-mobile">
 
@@ -44,7 +44,7 @@
                     <img src="<?php echo esc_attr( get_option('logo_path') ); ?>" alt="<?php bloginfo('name'); ?>" id="mobile-header-logo">
                 </a>
             <?php elseif( $options['tablet-right-place'] == 'search') : ?>
-                <form role="search" method="get" id="searchform" class="searchform push-right" action="http://beta.bstczew.com/">
+                <form role="search" method="get" id="searchform" class="searchform push-right tablet" action="http://beta.bstczew.com/">
                     <input type="text" value="" name="s" id="s" placeholder="szukaj"><i class="md icon-search"></i>
                 </form>
             <?php else: ?>
@@ -60,7 +60,7 @@
 
 <div class="col-xs-10 col-sm-5 mobile-menu-toggle hidden-lg">
     <div class="row toggle-header">
-        <div class="col-xs-9 phone-contact">
+        <div class="col-xs-9 q-bar">
             <?php if( $options['unfolded_1'] == 'phone') : ?>
                 <a href="<?php echo $options['login_phone']; ?>"><i class="icon-phone"></i>Skontaktuj się</a>
             <?php elseif( $options['unfolded_1'] == 'find') : ?>
@@ -68,17 +68,17 @@
                     <input type="text" value="" name="s" id="s" placeholder="szukaj"><i class="icon-bs icon-search_bs"></i>
                 </form>
             <?php else : ?>
-                <i class="icon-lock"></i>Logowanie
+                <a href="<?php echo $options['login_link']; ?>"><i class="icon-lock"></i>Logowanie</a>
             <?php endif; ?>
         </div>
         <div class="col-xs-3 close-menu">
             <i class="icon-close"></i>
         </div>
     </div>
-    <div class="row visible-xs">
+    <div class="row visible-xs menu-wrapper">
         <?php wp_nav_menu( array( 'theme_location' => 'mobile-menu-material' ) ); ?>
     </div>
-    <div class="row visible-sm visible-md">
+    <div class="row visible-sm visible-md menu-wrapper">
         <?php wp_nav_menu( array( 'theme_location' => 'tablet-menu-material' ) ); ?>
     </div>
 </div>

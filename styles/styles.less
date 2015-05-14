@@ -1,6 +1,7 @@
 @black:#000000;
 @white:#FFFFFF;
 @grey:#e8e8e8;
+@grey_darker: #d8d8d8;
 @main_color:#ff6600;
 @main_color_hover:#e35b00;
 
@@ -109,10 +110,10 @@
     font-size: 36px;
     color:@main_color;
     position: relative;
-    top: 3px;
+    top: 1px;
     span{
       font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-      font-size: 30px;
+      font-size: 26px;
       top: -5px;
       position: relative;
     }
@@ -140,29 +141,26 @@
       padding: 3px 10px;
       color: @white;
       .transition(all 0.3s ease);
-      top: 3px;
+      top: 5px;
       position: relative;
       &:hover{
         text-decoration: none;
         background: @main_color_hover;
       }
-
+      i{
+        font-size: 14px;
+      }
       span{
         margin-left: 10px;
+        font-size: 16px;
+
       }
     }
   }
 }
 
 .mobile-menu-toggle{
-  #searchform{
-    input{
-      background: @white;
-      width: 75%;
-      font-size: 12px;
-      padding: 3px 7px;
-    }
-  }
+
 
 
 
@@ -174,6 +172,7 @@
       li{
         text-transform: uppercase;
         list-style: none;
+        border-bottom: 1px solid @grey_darker;
         a{
           color: @black;
           display: block;
@@ -200,18 +199,26 @@
   //    .row{
   //      background: @grey;
   //    }
-  .phone-contact{
+  .q-bar{
     padding: 15px 0;
     background: @main_color;
     font-size: 16px;
     text-align: center;
+    &:hover, &:active{
+      background: @main_color_hover;
+    }
     i{
-      font-size: 22px;
+      font-size: 26px;
       color: @white;
       margin: 0 10px 0 0;
+      position: relative;
+      top: 4px;
     }
     a{
       color: @white;
+      display: block;
+      position: relative;
+      font-size: 18px;
       &:hover, &:active, &:focus{
         text-decoration: none;
         border: none;
@@ -233,5 +240,29 @@
   .toggle-header{
     background: @main_color;
     position: relative;
+  }
+}
+
+
+#searchform{
+  input{
+    background: @white;
+    width: 75%;
+    font-size: 12px;
+    padding: 7px 7px;
+    border: none;
+  }
+  &.tablet{
+    margin-top: 5px;
+    input{
+      border-bottom: 1px solid @grey;
+      padding: 5px 15px;
+    }
+    i{
+      font-size: 20px;
+      top: 5px;
+      display: inline-block;
+      position: relative;
+    }
   }
 }

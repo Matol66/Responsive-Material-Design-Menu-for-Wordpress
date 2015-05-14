@@ -38,12 +38,24 @@ form {
 span.text label input {
   display: block;
   margin-top: 5px;
+  margin-bottom: 10px;
   padding: 8px 10px;
   margin-left: 0;
+}
+span.text.box label {
+  display: inline-block;
+  width: 27%;
+  margin-right: 3%;
+}
+span.text.box label input {
+  width: 100%;
 }
 span.radio label {
   display: block;
   margin-bottom: 7px;
+}
+span.upload input[type=button] {
+  margin-bottom: 20px;
 }
 img.img-responsive {
   max-width: 100%;

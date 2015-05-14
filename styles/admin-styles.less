@@ -23,6 +23,8 @@ form{
 
 }
 
+
+
 .helper{
   width: 25%;
   float: left;
@@ -62,8 +64,19 @@ span{
       input{
         display: block;
         margin-top: 5px;
+        margin-bottom: 10px;
         padding: 8px 10px;
         margin-left: 0;
+      }
+    }
+    &.box{
+      label{
+        display: inline-block;
+        width: 27%;
+        margin-right: 3%;
+        input{
+          width: 100%;
+        }
       }
     }
   }
@@ -71,6 +84,11 @@ span{
     label{
       display: block;
       margin-bottom: 7px;
+    }
+  }
+  &.upload{
+    input[type=button]{
+      margin-bottom: 20px;
     }
   }
 }

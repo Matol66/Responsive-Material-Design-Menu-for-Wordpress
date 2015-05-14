@@ -58,11 +58,11 @@
   font-size: 36px;
   color: #ff6600;
   position: relative;
-  top: 3px;
+  top: 1px;
 }
 .header-mobile .icon-menu span {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 30px;
+  font-size: 26px;
   top: -5px;
   position: relative;
 }
@@ -88,15 +88,19 @@
   -moz-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
-  top: 3px;
+  top: 5px;
   position: relative;
 }
 .header-mobile.tablet .login-btn:hover {
   text-decoration: none;
   background: #e35b00;
 }
+.header-mobile.tablet .login-btn i {
+  font-size: 14px;
+}
 .header-mobile.tablet .login-btn span {
   margin-left: 10px;
+  font-size: 16px;
 }
 .mobile-menu-toggle {
   background: #e8e8e8;
@@ -109,12 +113,6 @@
   z-index: 2;
   top: 0;
 }
-.mobile-menu-toggle #searchform input {
-  background: #ffffff;
-  width: 75%;
-  font-size: 12px;
-  padding: 3px 7px;
-}
 .mobile-menu-toggle .menu-wrapper ul {
   padding: 15px 0;
   margin: 0;
@@ -122,6 +120,7 @@
 .mobile-menu-toggle .menu-wrapper ul li {
   text-transform: uppercase;
   list-style: none;
+  border-bottom: 1px solid #d8d8d8;
 }
 .mobile-menu-toggle .menu-wrapper ul li a {
   color: #000000;
@@ -135,23 +134,32 @@
   color: #ffffff;
   text-decoration: none;
 }
-.mobile-menu-toggle .phone-contact {
+.mobile-menu-toggle .q-bar {
   padding: 15px 0;
   background: #ff6600;
   font-size: 16px;
   text-align: center;
 }
-.mobile-menu-toggle .phone-contact i {
-  font-size: 22px;
+.mobile-menu-toggle .q-bar:hover,
+.mobile-menu-toggle .q-bar:active {
+  background: #e35b00;
+}
+.mobile-menu-toggle .q-bar i {
+  font-size: 26px;
   color: #ffffff;
   margin: 0 10px 0 0;
+  position: relative;
+  top: 4px;
 }
-.mobile-menu-toggle .phone-contact a {
+.mobile-menu-toggle .q-bar a {
   color: #ffffff;
+  display: block;
+  position: relative;
+  font-size: 18px;
 }
-.mobile-menu-toggle .phone-contact a:hover,
-.mobile-menu-toggle .phone-contact a:active,
-.mobile-menu-toggle .phone-contact a:focus {
+.mobile-menu-toggle .q-bar a:hover,
+.mobile-menu-toggle .q-bar a:active,
+.mobile-menu-toggle .q-bar a:focus {
   text-decoration: none;
   border: none;
 }
@@ -169,5 +177,25 @@
 }
 .mobile-menu-toggle .toggle-header {
   background: #ff6600;
+  position: relative;
+}
+#searchform input {
+  background: #ffffff;
+  width: 75%;
+  font-size: 12px;
+  padding: 7px 7px;
+  border: none;
+}
+#searchform.tablet {
+  margin-top: 5px;
+}
+#searchform.tablet input {
+  border-bottom: 1px solid #e8e8e8;
+  padding: 5px 15px;
+}
+#searchform.tablet i {
+  font-size: 20px;
+  top: 5px;
+  display: inline-block;
   position: relative;
 }
