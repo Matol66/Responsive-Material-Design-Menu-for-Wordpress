@@ -27,11 +27,11 @@
   -ms-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   text-align: center;
-  color: #ff6600;
+  color: #689f38;
 }
 .header-mobile .q-action-wrapper .q-action a:hover {
   text-decoration: none;
-  color: #ff6600;
+  color: #689f38;
 }
 .header-mobile .q-action-wrapper .q-action a i {
   display: block;
@@ -44,7 +44,7 @@
   color: #000000;
 }
 .header-mobile .q-action-wrapper .q-action.middle {
-  border: 1px solid #ff6600;
+  border: 1px solid #689f38;
   border-top: none;
   border-bottom: none;
 }
@@ -56,7 +56,7 @@
 }
 .header-mobile .icon-menu {
   font-size: 36px;
-  color: #ff6600;
+  color: #689f38;
   position: relative;
   top: 1px;
 }
@@ -65,6 +65,24 @@
   font-size: 26px;
   top: -5px;
   position: relative;
+}
+.header-mobile .icon-menu.reversed {
+  color: #ffffff;
+  background: #689f38;
+  padding: 12px 48px 15px 36px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  margin-left: -15px;
+}
+@media only screen and (max-width: 767px) {
+  .header-mobile .icon-menu.reversed {
+    padding: 12px 12px 15px 12px;
+  }
+}
+.header-mobile .icon-menu.reversed:hover {
+  background: #33691e;
 }
 .header-mobile .mobile-go-home {
   display: block;
@@ -81,8 +99,8 @@
 }
 .header-mobile.tablet .login-btn {
   float: right;
-  background: #ff6600;
-  padding: 3px 10px;
+  background: #689f38;
+  padding: 5px 10px;
   color: #ffffff;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -93,18 +111,19 @@
 }
 .header-mobile.tablet .login-btn:hover {
   text-decoration: none;
-  background: #e35b00;
+  background: #33691e;
 }
 .header-mobile.tablet .login-btn i {
-  font-size: 14px;
+  font-size: 18px;
 }
 .header-mobile.tablet .login-btn span {
   margin-left: 10px;
   font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .mobile-menu-toggle {
   background: #e8e8e8;
-  height: 100vh;
+  min-height: 100vh;
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.24);
   -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.24);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.24);
@@ -121,28 +140,54 @@
   text-transform: uppercase;
   list-style: none;
   border-bottom: 1px solid #d8d8d8;
+  position: relative;
+  overflow: hidden;
+}
+.mobile-menu-toggle .menu-wrapper ul li:after {
+  font-family: 'Material-Icons';
+  content: '\e7c3';
+  color: #ffffff;
+  position: absolute;
+  right: -25px;
+  top: 10px;
+  font-size: 22px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.mobile-menu-toggle .menu-wrapper ul li:hover:after {
+  right: 10px;
 }
 .mobile-menu-toggle .menu-wrapper ul li a {
   color: #000000;
   display: block;
   padding: 15px 0 15px 25px;
   font-size: 13px;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
 }
 .mobile-menu-toggle .menu-wrapper ul li a:hover,
 .mobile-menu-toggle .menu-wrapper ul li a:active {
-  background: #ff6600;
+  background: #689f38;
   color: #ffffff;
   text-decoration: none;
 }
 .mobile-menu-toggle .q-bar {
   padding: 15px 0;
-  background: #ff6600;
+  background: #689f38;
   font-size: 16px;
   text-align: center;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
 }
 .mobile-menu-toggle .q-bar:hover,
 .mobile-menu-toggle .q-bar:active {
-  background: #e35b00;
+  background: #33691e;
 }
 .mobile-menu-toggle .q-bar i {
   font-size: 26px;
@@ -172,11 +217,26 @@
   height: 100%;
 }
 .mobile-menu-toggle .close-menu i {
-  font-size: 22px;
-  color: #ff6600;
+  font-size: 32px;
+  color: #689f38;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  position: relative;
+  top: -2px;
+}
+.mobile-menu-toggle .close-menu:hover i {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  font-weight: 900;
+  font-size: 36px;
+  color: #33691e;
 }
 .mobile-menu-toggle .toggle-header {
-  background: #ff6600;
+  background: #689f38;
   position: relative;
 }
 #searchform input {

@@ -2,8 +2,8 @@
 @white:#FFFFFF;
 @grey:#e8e8e8;
 @grey_darker: #d8d8d8;
-@main_color:#ff6600;
-@main_color_hover:#e35b00;
+@main_color:#689F38;
+@main_color_hover:#33691E;
 
 
 @xs-min: 767px;
@@ -32,6 +32,14 @@
   -ms-transition:     @transition;
   -o-transition:      @transition;
 }
+
+.rotate (@deg) {
+  -webkit-transform: rotate(@deg);
+  -moz-transform: 	 rotate(@deg);
+  -ms-transform: 		 rotate(@deg);
+  -o-transform: 		 rotate(@deg);
+}
+
 .push-right{
   float: right;
 }
@@ -117,6 +125,20 @@
       top: -5px;
       position: relative;
     }
+
+    &.reversed{
+      color: @white;
+      background: @main_color;
+      padding: 12px 48px 15px 36px;
+      .transition(all 0.3s ease);
+      @media @phone{
+        padding: 12px 12px 15px 12px;
+      }
+      margin-left: -15px;
+      &:hover{
+        background: @main_color_hover;
+      }
+    }
   }
   .mobile-go-home{
     display: block;
@@ -138,7 +160,7 @@
     .login-btn{
       float: right;
       background: @main_color;
-      padding: 3px 10px;
+      padding: 5px 10px;
       color: @white;
       .transition(all 0.3s ease);
       top: 5px;
@@ -148,12 +170,12 @@
         background: @main_color_hover;
       }
       i{
-        font-size: 14px;
+        font-size: 18px;
       }
       span{
         margin-left: 10px;
         font-size: 16px;
-
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
       }
     }
   }
@@ -173,11 +195,29 @@
         text-transform: uppercase;
         list-style: none;
         border-bottom: 1px solid @grey_darker;
+        position: relative;
+        overflow: hidden;
+        &:after{
+          font-family: 'Material-Icons';
+          content: '\e7c3';
+          color: @white;
+          position: absolute;
+          right: -25px;
+          top: 10px;
+          font-size: 22px;
+          .transition(all 0.3s ease);
+        }
+        &:hover{
+          &:after{
+            right: 10px;
+          }
+        }
         a{
           color: @black;
           display: block;
           padding: 15px 0 15px 25px;
           font-size: 13px;
+          .transition(all 0.2s ease);
           &:hover, &:active {
             background: @main_color;
             color: @white;
@@ -189,7 +229,7 @@
   }
 
   background: @grey;
-  height: 100vh;
+  min-height: 100vh;
   .depth-1-dark;
   left:-100%;
   position: absolute;
@@ -204,6 +244,7 @@
     background: @main_color;
     font-size: 16px;
     text-align: center;
+    .transition(all 0.2s ease);
     &:hover, &:active{
       background: @main_color_hover;
     }
@@ -233,8 +274,19 @@
     position: absolute;
     height: 100%;
     i{
-      font-size: 22px;
+      font-size: 32px;
       color: @main_color;
+      .transition(all 0.3s ease-in-out);
+      position: relative;
+      top: -2px;
+    }
+    &:hover{
+      i{
+        .rotate(180deg);
+        font-weight: 900;
+        font-size: 36px;
+        color: @main_color_hover;
+      }
     }
   }
   .toggle-header{

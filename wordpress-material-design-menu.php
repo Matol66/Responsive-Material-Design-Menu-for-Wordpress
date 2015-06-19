@@ -4,43 +4,29 @@ Plugin Name: WordPress Material Design Menu
 Description: Displays Menu - Tablet / Mobile - Bootstrap based. <hr><strong>IMPORTANT</strong> Libraries: Velocity(animations), jQuery(js handler), WMDM(plugin script) | Styles: Bootstrap(Grid), Icofont(Material Icons), WMDM(plugin menu styles)
 Version: 0.9
 */
-?>
-
-<?php
 
 class WMDM
 {
     function __construct() {
 
-        // Load text domain
-//        add_action( 'init', array( $this, 'load_localisation' ), 0 );
-
         // Adding Plugin Menu
         add_action( 'admin_menu', array( &$this, 'wmdm_menu' ) );
 
-        // Load our custom assets.
+        // Load custom assets on admin page.
         add_action( 'admin_enqueue_scripts', array( &$this, 'wmdm_assets' ) );
 
+        // Load custom assets on front-end layer
         add_action( 'wp_head', array( &$this, 'enqueue_libs' ) );
 
         // Register Settings
         add_action( 'admin_init', array( &$this, 'wmdm_settings' ) );
 
-
         // Add Two Menus - Mobile & Tablet
         add_action( 'init', array( &$this, 'register_material_menus' ));
 
-        //  Add Favicon to website frontend
+        //  Print front-end layer
         add_action( 'wp_head', array( &$this, 'print_on_frontend' ) );
-
-        // Add Favicon to website backend
-        //add_action( 'admin_head', array( &$this, 'dot_cfi_favicon_backend' ) );
-//        add_action( 'login_head', array( &$this, 'dot_cfi_favicon_backend' ) );
-
-
     } // end constructor
-
-
 
 
     /*--------------------------------------------*
@@ -98,9 +84,7 @@ class WMDM
     {
         ?>
         <div class="wrap">
-            <!--<div id="icon-freshdesk-32" class="icon32"><br></div>-->
-            <div id="icon-options-general" class="icon32"><br></div>
-            <h2><?php _e('Material Design Menu', 'wmdm'); ?></h2>
+           <h2><?php _e('Material Design Menu', 'wmdm'); ?></h2>
 
             <form method="post" action="options.php">
                 <?php //wp_nonce_field('update-options'); ?>
@@ -126,6 +110,14 @@ class WMDM
                     <strong>tel:</strong> +48123456789 (z kierunkowym kraju)<br>
                     <strong>gps:</strong> 54.3610873,18.6900271
                     </p>
+                    <hr>
+                    <img src="'.plugins_url( '/sprite/palette.png' , __FILE__ ).'" alt="" class="img-responsive"/>
+                    <h3>Paleta kolorów Material Design</h3>
+                    <a href="http://www.google.com/design/spec/style/color.html" target="_blank">zobacz</a>
+                    <hr>
+                    <h3>Autor</h3>
+                    <h4>Mateusz Lewandowski</h4>
+                    <a href="mailto:developer@dev-ninja.pl">skontaktuj się</a>
                 '; ?>
             </div>
         </div>
@@ -136,25 +128,33 @@ class WMDM
     function wmdm_settings()
     {
         register_setting('wmdm_settings', 'wmdm_settings');
+
+        // SECTIONS
+        add_settings_section('menu_type', 'Wybierz typ menu', array(&$this, 'select_menu'), 'wmdm_settings');
         add_settings_section('boxes', 'Trzy boksy wyświetlane na telefonach', array(&$this, 'section_boxes'), 'wmdm_settings');
         add_settings_section('unfolded', 'Ustawienia nagłówka menu po rozwinięciu', array(&$this, 'section_unfolded'), 'wmdm_settings');
         add_settings_section('logo_login', 'Ustawienia Logo / Panel logowania / Numer telefonu', array(&$this, 'section_logo_login'), 'wmdm_settings');
         add_settings_section('tablet_menu', 'Ustawienia menu na tablecie', array(&$this, 'section_tablet'), 'wmdm_settings');
 
-//        add_settings_field('box_1_image', 'Logo', array( &$this, 'section_box_1_image' ), 'wmdm_settings', 'boxes');
-
+        // FIELDS
+        add_settings_field('menu_type_1', 'Typ menu', array( &$this, 'select_menu_type' ), 'wmdm_settings', 'menu_type');
         add_settings_field('box_1', 'Pierwsza Ikona', array( &$this, 'section_box_1' ), 'wmdm_settings', 'boxes');
         add_settings_field('box_2', 'Druga Ikona', array( &$this, 'section_box_2' ), 'wmdm_settings', 'boxes');
         add_settings_field('box_3', 'Trzecia Ikona', array( &$this, 'section_box_3' ), 'wmdm_settings', 'boxes');
-
         add_settings_field('unfold_1', 'Pojawi się: ', array( &$this, 'section_unfold_1' ), 'wmdm_settings', 'unfolded');
-
         add_settings_field('logo_login_1', 'Logo', array( &$this, 'section_logo_login_1' ), 'wmdm_settings', 'logo_login');
-
         add_settings_field('tablet_menu_1', 'Prawa strona paska menu na tablecie', array( &$this, 'section_tablet_menu' ), 'wmdm_settings', 'tablet_menu');
-
     }
 
+    function select_menu_type(){
+        $options = get_option( 'wmdm_settings' );
+        ?>
+        <span class="radio">
+            <label for="menu_type_1"><input type="radio" id="menu_type_1" name="wmdm_settings[menu-type]" value="1" <?php checked(1, $options['menu-type']); ?>/>Biały pasek - bez wyróżnienia</label>
+            <label for="menu_type_2"><input type="radio" id="menu_type_2" name="wmdm_settings[menu-type]" value="2" <?php checked(2, $options['menu-type']); ?>/>Biały pasek z wyróżnieniem menu</label>
+        </span>
+        <?php
+    }
 
     function  section_tablet_menu(){
         $options = get_option( 'wmdm_settings' );
@@ -166,6 +166,8 @@ class WMDM
         </span>
         <?php
     }
+
+
 
     function section_logo_login_1() {
         $options = get_option( 'wmdm_settings' );
@@ -238,15 +240,11 @@ class WMDM
     }
 
 
-    function section_boxes() 	{
-        $options = get_option( 'wmdm_settings' );
-//        var_dump($options);
-
-    }
-
+    function section_boxes(){}
     function section_unfolded(){}
     function section_logo_login(){}
     function section_tablet(){}
+    function select_menu(){}
 
     function print_on_frontend(){
         $options = get_option('wmdm_settings');

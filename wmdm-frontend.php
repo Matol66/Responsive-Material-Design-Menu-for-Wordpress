@@ -1,12 +1,10 @@
-
+<?php //var_dump($options); ?>
 <?php function print_frontend($options){ ?>
-    <?php var_dump($options); ?>
-
     <div class="container visible-xs header-mobile">
 
-    <div class="row depth-1 nav-bar">
-        <div class="col-xs-6">
-            <i class="icon-menu"><span class="menu-word">Menu</span></i>
+    <div class="row depth-1 nav-bar" style="overflow: hidden">
+        <div class="col-xs-6" >
+            <i class="icon-menu <?php if( $options['menu-type'] == 2) : ?>reversed<?php endif; ?>"><span class="menu-word">Menu</span></i>
         </div>
         <div class="col-xs-6" style="text-align:right;">
             <a href="<?php echo esc_url( home_url( '/' ) )?>" title="<?php bloginfo('name'); ?>" class="mobile-go-home">
@@ -34,9 +32,9 @@
 </div>
 
 <div class="container-fluid visible-sm visible-md depth-1 header-mobile tablet" >
-    <div class="row" style="padding:10px 0">
+    <div class="row" style="padding:5px 0 10px 0; overflow: hidden">
         <div class="col-sm-6">
-            <i class="icon-bs icon-menu"><span class="menu-word">Menu</span></i>
+            <i class="icon-bs icon-menu  <?php if( $options['menu-type'] == 2) : ?>reversed<?php endif; ?>"><span class="menu-word">Menu</span></i>
         </div>
         <div class="col-sm-6">
             <?php if( $options['tablet-right-place'] == 'logo') : ?>
